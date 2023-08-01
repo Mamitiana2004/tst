@@ -1,0 +1,35 @@
+import { addLocale } from 'primereact/api';
+
+
+addLocale('fr', {
+    startsWith:'Commence par',
+    contains:'Contient',
+    notContains:'Ne contient pas',
+    endsWith:'Se termine par',
+    equals:'Egal',
+    notEquals:'Non egal',
+    noFilter:'Non filtrer',
+    filter:'Filtrer',
+    accept:'Oui',
+    decline:'non',
+    choose:'Choisi',
+    cancel:'Annuler',
+    close:'Fermer',
+    dayNames: ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+    dayNamesShort: ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'],
+    dayNamesMin: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
+    monthNames: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin','juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+    monthNamesShort: ['jan', 'fev', 'mar', 'avr', 'mai', 'juin', 'juil', 'aou', 'sep', 'oct', 'nov', 'dec'],
+    today: 'Aujourd \'hui',
+    weekHeader:'Sm',
+    firstDayOfWeek: 1,
+    clear: 'effacer',
+    dateFormat:'dd/mm/yy',
+    weak:"Faible",
+    medium:"Normal",
+    strong:"Fort",
+    passwordPrompt:'Entrer le mot de passe',
+    emptyFilterMessage:'Pas d\'option disponible',
+    emptyMessage:'Aucun resultat trouvé',
+});
+        
